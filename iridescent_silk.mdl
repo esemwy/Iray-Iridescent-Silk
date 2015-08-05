@@ -1,0 +1,173 @@
+/* 
+ * From "A sneak peek at NVIDIA's Material Definition Handbook" by Andy Kopra
+ * http://on-demand.gputechconf.com/gtc/2015/presentation/S5303-Andy-Kopra.pdf
+ */
+ 
+mdl 1.0;
+
+import df::*;
+import state::*;
+import base::*;
+import tex::*;
+import math::*;
+import anno::*;
+
+export const color magenta = color(.3, .22, .3); 
+export const color green = color(.20, .3, .2);
+
+export material anisotropic_glossy ( 
+    color tint = color(0.7), 
+    float roughness_u = 1.0, 
+    float roughness_v = 0.15) =
+material (
+    surface: material_surface (
+        scattering: df::simple_glossy_bsdf (
+            tint: tint,
+            roughness_u: roughness_u, roughness_v: roughness_v,
+            mode: df::scatter_reflect)));
+
+export float3 modify_normal_u(float factor = 1.0) {
+    return math::normalize(
+        state::normal()
+            + state::texture_tangent_u(0)
+            * factor);
+}
+
+export material anisotropic_glossy_three_lobes ( 
+    color tint = color(0.7),
+    float roughness = 0.1,
+    uniform float normal_strength = 1.5) =
+let {
+    float3 start_normal = modify_normal_u(-normal_strength); 
+    float3 middle_normal = state::normal();
+    float3 end_normal = modify_normal_u(normal_strength); 
+    bsdf glossy_component = anisotropic_glossy (
+        tint: tint,
+        roughness_v: 1,
+        roughness_u: roughness).surface.scattering;
+} in material (
+    surface: material_surface ( 
+        scattering: df::weighted_layer (
+            weight: 0.5,
+            normal: middle_normal, 
+            layer: glossy_component, 
+            base: df::weighted_layer (
+                weight: 0.5,
+                normal: end_normal,
+                layer: glossy_component,
+                base: df::weighted_layer (
+                    weight: 1.0,
+                    normal: start_normal,
+                    layer: glossy_component)))));
+
+export material warp_and_weft (
+    color warp_color = magenta, 
+    float warp_roughness = 0.3,
+    color weft_color = green,
+    float weft_roughness = 0.15,
+    uniform float weft_normal_strength = 1.5,
+    uniform float warp_to_weft = 3,
+    float shadowing = 0.0) =
+let {
+    bsdf warp = anisotropic_glossy (
+        tint: warp_color,
+        roughness_u: 1.0,
+        roughness_v: warp_roughness).surface.scattering;
+    bsdf weft = anisotropic_glossy_three_lobes (
+        tint: weft_color,
+        roughness: weft_roughness,
+        normal_strength: weft_normal_strength).surface.scattering;
+    float warp_weight =
+        warp_to_weft > 1 ? 1.0 - 1.0 / warp_to_weft : warp_to_weft;
+} in material (
+    surface: material_surface (
+        scattering: df::custom_curve_layer (
+        weight: shadowing, 
+        normal_reflectivity: 0.05, 
+        grazing_reflectivity: 1.0, 
+        exponent: 3,
+        base: df::weighted_layer (
+            weight: warp_weight, 
+            layer: weft,
+            base: warp))));
+
+export material translucency (
+    color transmission_color = color(1)) =
+material (
+    thin_walled: true,
+    surface: material_surface (
+        scattering: df::diffuse_transmission_bsdf ( tint: transmission_color)));
+
+export material iridescent_silk (
+    color warp_color = magenta
+    [[
+        anno::display_name("Warp Color"),
+        anno::description("Color of vertically woven (straight) threads")
+    ]],
+    float warp_roughness = 0.3
+    [[
+        anno::display_name("Warp Roughness"),
+        anno::soft_range(0.0, 1.0)
+    ]],
+    color weft_color = green
+    [[
+        anno::display_name("Weft Color"),
+        anno::description("Color of horizontally woven (curved) threads")
+    ]],
+    float weft_roughness = 0.15
+    [[
+        anno::display_name("Weft Roughness"),
+        anno::soft_range(0.0, 1.0)
+    ]],
+    uniform float weft_normal_strength = 1.5
+    [[
+        anno::display_name("Weft Normal Strength"),
+        anno::soft_range(0.0, 3.0)
+    ]],
+    uniform float warp_to_weft = 3
+    [[
+        anno::display_name("Warp to Weft Ratio"),
+        anno::soft_range(1.0, 5.0)
+    ]],
+    float transmission_weight = 0.2
+    [[
+        anno::display_name("Transmission Weight"),
+        anno::soft_range(0.0, 1.0)
+    ]],
+    color transmission_color = color(0.95,1.0,0.95)
+    [[
+        anno::display_name("Transmission Color"),
+        anno::description("Color transmitted through the material")
+    ]],
+    float transmission_exponent = 3.0
+    [[
+        anno::display_name("Transmission Exponent"),
+        anno::soft_range(0.5, 4.0)
+    ]],
+    float shadowing = 0.0
+    [[
+        anno::display_name("Shadowing"),
+        anno::soft_range(0.0, 1.0)
+    ]]) =
+let {
+    bsdf glossy = warp_and_weft (
+        warp_color: warp_color,
+        warp_roughness: warp_roughness,
+        weft_color: weft_color,
+        weft_roughness: weft_roughness, 
+        weft_normal_strength: weft_normal_strength, 
+        warp_to_weft: warp_to_weft,
+        shadowing: shadowing).surface.scattering;
+    bsdf translucent = translucency (
+        transmission_color: transmission_color).surface.scattering;
+} in material (
+    thin_walled: true,
+    surface: material_surface (
+        scattering: df::custom_curve_layer (
+            weight: 1.0,
+            normal_reflectivity: 1.0 - transmission_weight, 
+            grazing_reflectivity: 1.0,
+            exponent: transmission_exponent,
+            layer: glossy,
+            base: translucent)));
+

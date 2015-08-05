@@ -1,0 +1,1582 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Presets/Shaders/Iridescent%20Silk.duf",
+		"type" : "preset_shader",
+		"contributor" : {
+			"author" : "Stephen Youndt",
+			"email" : "daz3d.5.smy@neverbox.com",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2015-08-05T19:11:48Z"
+	},
+	"material_library" : [
+		{
+			"id" : "Carpaint Blue",
+			"source" : "/data/DAZ%203D/NVIDIA%20MDL%20Examples/Carpaint%20Blue/Carpaint%20Blue.dsf#Carpaint%20Blue",
+			"extra" : [
+				{
+					"type" : "studio/material/daz_brick",
+					"brick_settings" : {
+						"BrickSetup" : {
+							"type" : "settings",
+							"value" : {
+								"Bricks" : {
+									"type" : "settings",
+									"value" : {
+										"Brick_1" : {
+											"type" : "settings",
+											"value" : {
+												"DAZStudioClassName" : "DzUserParametersBrick",
+												"Attributes" : {
+													"type" : "settings",
+													"value" : {
+														"UserOutputParameters" : {
+															"type" : "settings",
+															"value" : {
+																"user_out_1" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "outlinecolorid_value_arg",
+																		"ParamType" : "color",
+																		"PropertyClass" : "DzColorProperty",
+																		"PropertyName" : "OutlineColorID"
+																	}
+																},
+																"user_out_2" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "warp_color_value_arg",
+																		"ParamType" : "color",
+																		"PropertyClass" : "DzColorProperty",
+																		"PropertyName" : "warp_color"
+																	}
+																},
+																"user_out_3" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "warp_roughness_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "warp_roughness"
+																	}
+																},
+																"user_out_4" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "weft_color_value_arg",
+																		"ParamType" : "color",
+																		"PropertyClass" : "DzColorProperty",
+																		"PropertyName" : "weft_color"
+																	}
+																},
+																"user_out_5" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "weft_roughness_value_arg",
+																		"MapArgName" : "weft_roughness_map_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "weft_roughness"
+																	}
+																},
+																"user_out_6" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "weft_normal_strength_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "weft_normal_strength"
+																	}
+																},
+																"user_out_7" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "warp_to_weft_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "warp_to_weft"
+																	}
+																},
+																"user_out_8" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "transmission_weight_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "transmission_weight"
+																	}
+																},
+																"user_out_9" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "transmission_color_value_arg",
+																		"ParamType" : "color",
+																		"PropertyClass" : "DzColorProperty",
+																		"PropertyName" : "transmission_color"
+																	}
+																},
+																"user_out_10" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "transmission_exponent_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "transmission_exponent"
+																	}
+																},
+																"user_out_11" : {
+																	"type" : "settings",
+																	"value" : {
+																		"ArgName" : "shadowing_value_arg",
+																		"ParamType" : "float",
+																		"PropertyClass" : "DzFloatProperty",
+																		"PropertyName" : "shadowing"
+																	}
+																}
+															}
+														},
+														"BrickSettings" : {
+															"type" : "settings",
+															"value" : {
+																"BrickTitle" : "User Parameters (3)",
+																"HideParams" : false,
+																"PosX" : -388,
+																"PosY" : -244,
+																"Width" : [ "i", 200 ],
+																"Height" : [ "i", 380 ],
+																"BrickParams" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Param_0" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 119,
+																						"Green" : 215,
+																						"Blue" : 241
+																					}
+																				}
+																			}
+																		},
+																		"Param_1" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 254,
+																						"Green" : 117,
+																						"Blue" : 34
+																					}
+																				}
+																			}
+																		},
+																		"Param_2" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 128,
+																						"Green" : 5,
+																						"Blue" : 231
+																					}
+																				}
+																			}
+																		},
+																		"Param_3" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 104,
+																						"Green" : 63,
+																						"Blue" : 33
+																					}
+																				}
+																			}
+																		},
+																		"Param_4" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 197,
+																						"Green" : 88,
+																						"Blue" : 71
+																					}
+																				}
+																			}
+																		},
+																		"Param_5" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 49,
+																						"Green" : 159,
+																						"Blue" : 135
+																					}
+																				}
+																			}
+																		},
+																		"Param_6" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 97,
+																						"Green" : 6,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_7" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 95,
+																						"Green" : 143,
+																						"Blue" : 225
+																					}
+																				}
+																			}
+																		},
+																		"Param_8" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 168,
+																						"Green" : 148,
+																						"Blue" : 103
+																					}
+																				}
+																			}
+																		},
+																		"Param_9" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 188,
+																						"Green" : 183,
+																						"Blue" : 167
+																					}
+																				}
+																			}
+																		},
+																		"Param_10" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 89,
+																						"Green" : 96,
+																						"Blue" : 7
+																					}
+																				}
+																			}
+																		},
+																		"Param_11" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 130,
+																						"Green" : 200,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		}
+																	}
+																},
+																"BrickIsRightToLeft" : false
+															}
+														},
+														"BrickVersion" : 1,
+														"BrickProperties" : {
+															"type" : "settings",
+															"value" : {
+															}
+														}
+													}
+												},
+												"Parameters" : {
+													"type" : "settings",
+													"value" : {
+														"val1" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Auto Add"
+															}
+														},
+														"outlinecolorid_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_outlinecolorid_value_arg_b1_t0",
+																"Label" : "Material ID",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Material ID",
+																		"Hidden" : false,
+																		"Path" : "/General/Material ID",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : false,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", -2147483648 ],
+																		"Max" : [ "i", 2147483647 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 0 ],
+																				"Green" : [ "i", 0 ],
+																				"Blue" : [ "i", 0 ]
+																			}
+																		},
+																		"DefaultValue" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 0 ],
+																				"Green" : [ "i", 0 ],
+																				"Blue" : [ "i", 0 ]
+																			}
+																		},
+																		"Name" : "OutlineColorID"
+																	}
+																}
+															}
+														},
+														"warp_color_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_warp_color_value_arg_b1_t0",
+																"Label" : "Warp Color",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Warp Color",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : false,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", -2147483648 ],
+																		"Max" : [ "i", 2147483647 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 77 ],
+																				"Green" : [ "i", 56 ],
+																				"Blue" : [ "i", 77 ]
+																			}
+																		},
+																		"DefaultValue" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 255 ],
+																				"Green" : [ "i", 255 ],
+																				"Blue" : [ "i", 255 ]
+																			}
+																		},
+																		"Name" : "warp_color"
+																	}
+																}
+															}
+														},
+														"warp_roughness_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_warp_roughness_value_arg_b1_t0",
+																"Label" : "Warp Roughness",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Warp Roughness",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 0,
+																		"Max" : 1,
+																		"Sensitivity" : 0.01,
+																		"AsPercent" : false,
+																		"Value" : 0.3,
+																		"DefaultValue" : 0.3,
+																		"Name" : "warp_roughness"
+																	}
+																}
+															}
+														},
+														"weft_color_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_weft_color_value_arg_b1_t0",
+																"Label" : "Weft Color",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Weft Color",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : false,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", -2147483648 ],
+																		"Max" : [ "i", 2147483647 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 51 ],
+																				"Green" : [ "i", 77 ],
+																				"Blue" : [ "i", 51 ]
+																			}
+																		},
+																		"DefaultValue" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 255 ],
+																				"Green" : [ "i", 255 ],
+																				"Blue" : [ "i", 255 ]
+																			}
+																		},
+																		"Name" : "weft_color"
+																	}
+																}
+															}
+														},
+														"weft_roughness_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_weft_roughness_value_arg_b1_t0,elr_weft_roughness_map_arg_b1_t1",
+																"Label" : "Weft Roughness",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Weft Roughness",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : true,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"TextureModifierFlags" : [ "i", 0 ],
+																		"Min" : 0,
+																		"Max" : 1,
+																		"Sensitivity" : 0.04,
+																		"AsPercent" : false,
+																		"Value" : 0.15,
+																		"DefaultValue" : 0.15,
+																		"MapImage" : "",
+																		"Name" : "weft_roughness"
+																	}
+																}
+															}
+														},
+														"weft_normal_strength_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_weft_normal_strength_value_arg_b1_t0",
+																"Label" : "Weft Normal Strength",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Weft Normal Strength",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 0,
+																		"Max" : 3,
+																		"Sensitivity" : 0.05,
+																		"AsPercent" : false,
+																		"Value" : 1.5,
+																		"DefaultValue" : 1.5,
+																		"Name" : "weft_normal_strength"
+																	}
+																}
+															}
+														},
+														"warp_to_weft_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_warp_to_weft_value_arg_b1_t0",
+																"Label" : "Warp to Weft Ratio",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Warp to Weft Ratio",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 0.5,
+																		"Max" : 5,
+																		"Sensitivity" : 0.5,
+																		"AsPercent" : false,
+																		"Value" : 3,
+																		"DefaultValue" : 3,
+																		"Name" : "warp_to_weft"
+																	}
+																}
+															}
+														},
+														"transmission_weight_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_transmission_weight_value_arg_b1_t0",
+																"Label" : "Transmission Weight",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Transmission Weight",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 0,
+																		"Max" : 1,
+																		"Sensitivity" : 0.01,
+																		"AsPercent" : false,
+																		"Value" : 0.2,
+																		"DefaultValue" : 0.2,
+																		"Name" : "transmission_weight"
+																	}
+																}
+															}
+														},
+														"transmission_color_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_transmission_color_value_arg_b1_t0",
+																"Label" : "Transmission Color",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Transmission Color",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : false,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", -2147483648 ],
+																		"Max" : [ "i", 2147483647 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 242 ],
+																				"Green" : [ "i", 255 ],
+																				"Blue" : [ "i", 242 ]
+																			}
+																		},
+																		"DefaultValue" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 242 ],
+																				"Green" : [ "i", 255 ],
+																				"Blue" : [ "i", 242 ]
+																			}
+																		},
+																		"Name" : "transmission_color"
+																	}
+																}
+															}
+														},
+														"transmission_exponent_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_transmission_exponent_value_arg_b1_t0",
+																"Label" : "Transmission Exponent",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Transmission Exponent",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 1,
+																		"Max" : 4,
+																		"Sensitivity" : 1,
+																		"AsPercent" : false,
+																		"Value" : 3,
+																		"DefaultValue" : 3,
+																		"Name" : "transmission_exponent"
+																	}
+																}
+															}
+														},
+														"shadowing_value_arg" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_shadowing_value_arg_b1_t0",
+																"Label" : "Shadowing",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Shadowing",
+																		"Hidden" : false,
+																		"Path" : "/User Parameters (1)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 1,
+																		"Min" : 0,
+																		"Max" : 1,
+																		"Sensitivity" : 0.01,
+																		"AsPercent" : false,
+																		"Value" : 0,
+																		"DefaultValue" : 0,
+																		"Name" : "shadowing"
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										},
+										"Brick_2" : {
+											"type" : "settings",
+											"value" : {
+												"DAZStudioClassName" : "DzMDLSurfaceBrick",
+												"Attributes" : {
+													"type" : "settings",
+													"value" : {
+														"BrickSettings" : {
+															"type" : "settings",
+															"value" : {
+																"BrickSet" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Name" : "shader_MDL_Surface",
+																		"LastInvalidate" : "1438801722"
+																	}
+																},
+																"BrickTitle" : "MDL Surface (2)",
+																"HideParams" : false,
+																"PosX" : 284,
+																"PosY" : -241,
+																"BrickIsRightToLeft" : false,
+																"Width" : [ "i", 200 ],
+																"Height" : [ "i", 134 ],
+																"BrickParams" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Param_0" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_1" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_2" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_3" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														},
+														"BrickVersion" : 1,
+														"BrickProperties" : {
+															"type" : "settings",
+															"value" : {
+															}
+														}
+													}
+												},
+												"Parameters" : {
+													"type" : "settings",
+													"value" : {
+														"material" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Material"
+															}
+														},
+														"color_id" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_color_id_b2_t0",
+																"Label" : "Material ID",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "Material ID",
+																		"Hidden" : false,
+																		"Path" : "/General/Material ID",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : false,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", -2147483648 ],
+																		"Max" : [ "i", 2147483647 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 0 ],
+																				"Green" : [ "i", 0 ],
+																				"Blue" : [ "i", 0 ]
+																			}
+																		},
+																		"DefaultValue" : {
+																			"type" : "settings",
+																			"value" : {
+																				"Red" : [ "i", 0 ],
+																				"Green" : [ "i", 0 ],
+																				"Blue" : [ "i", 0 ]
+																			}
+																		},
+																		"Name" : "OutlineColorID"
+																	}
+																}
+															}
+														},
+														"subd_displacement_level" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_subd_displacement_level_b2_t0",
+																"Label" : "SubD Displacement Level",
+																"Prop_0" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "SubD Displacement Level",
+																		"Hidden" : false,
+																		"Path" : "/MDL Surface (2)",
+																		"UserProperty" : false,
+																		"CanAnimate" : true,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"XYZInterest" : "None",
+																		"Clamped" : true,
+																		"Mapable" : false,
+																		"NeedMap" : false,
+																		"DefaultImageGamma" : 0,
+																		"Min" : [ "i", 0 ],
+																		"Max" : [ "i", 12 ],
+																		"Sensitivity" : [ "i", 1 ],
+																		"Value" : [ "i", 0 ],
+																		"DefaultValue" : [ "i", 0 ],
+																		"Name" : "SubD Displacement Level"
+																	}
+																}
+															}
+														},
+														"max_displacement" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Displace Max"
+															}
+														},
+														"rootSettings" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Root Settings"
+															}
+														}
+													}
+												}
+											}
+										},
+										"Brick_3" : {
+											"type" : "settings",
+											"value" : {
+												"DAZStudioClassName" : "DzCustomMDLBrick",
+												"Attributes" : {
+													"type" : "settings",
+													"value" : {
+														"BrickSettings" : {
+															"type" : "settings",
+															"value" : {
+																"BrickTitle" : "Custom MDL (4)",
+																"HideParams" : false,
+																"PosX" : -49,
+																"PosY" : -57,
+																"BrickIsRightToLeft" : false,
+																"Width" : [ "i", 200 ],
+																"Height" : [ "i", 345 ],
+																"BrickParams" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Param_0" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 15,
+																						"Green" : 202,
+																						"Blue" : 208
+																					}
+																				}
+																			}
+																		},
+																		"Param_1" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 15,
+																						"Green" : 202,
+																						"Blue" : 208
+																					}
+																				}
+																			}
+																		},
+																		"Param_2" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_3" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_4" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_5" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_6" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_7" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_8" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_9" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 39,
+																						"Green" : 39,
+																						"Blue" : 39
+																					}
+																				}
+																			}
+																		},
+																		"Param_10" : {
+																			"type" : "settings",
+																			"value" : {
+																				"ConnectionColor" : {
+																					"type" : "settings",
+																					"value" : {
+																						"Red" : 15,
+																						"Green" : 202,
+																						"Blue" : 208
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														},
+														"BrickVersion" : 1,
+														"BrickProperties" : {
+															"type" : "settings",
+															"value" : {
+																"MDL Callable" : {
+																	"type" : "settings",
+																	"value" : {
+																		"Label" : "MDL Callable",
+																		"Hidden" : false,
+																		"Path" : "/General",
+																		"UserProperty" : false,
+																		"CanAnimate" : false,
+																		"Locked" : false,
+																		"Manipulator" : true,
+																		"Favorite" : false,
+																		"GlobalFavorite" : false,
+																		"Selected" : false,
+																		"AutoFollow" : false,
+																		"Value" : "local::iridescent_silk::iridescent_silk"
+																	}
+																}
+															}
+														}
+													}
+												},
+												"Parameters" : {
+													"type" : "settings",
+													"value" : {
+														"warp_color" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Warp Color"
+															}
+														},
+														"warp_roughness" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Warp Roughness"
+															}
+														},
+														"weft_color" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Weft Color"
+															}
+														},
+														"weft_roughness" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Weft Roughness"
+															}
+														},
+														"weft_normal_strength" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Weft Normal Strength"
+															}
+														},
+														"warp_to_weft" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Warp to Weft Ratio"
+															}
+														},
+														"transmission_weight" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Transmission Weight"
+															}
+														},
+														"transmission_color" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Transmission Color"
+															}
+														},
+														"transmission_exponent" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Transmission Exponent"
+															}
+														},
+														"shadowing" : {
+															"type" : "settings",
+															"value" : {
+																"Label" : "Shadowing"
+															}
+														},
+														"Result" : {
+															"type" : "settings",
+															"value" : {
+																"Tokens" : "elr_Result_b3_t0",
+																"Label" : "Result"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"Connections" : {
+									"type" : "settings",
+									"value" : {
+										"Connection_0" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_2",
+												"TargetBrick" : "Brick_3",
+												"SourceParam" : "material",
+												"TargetParam" : "Result"
+											}
+										},
+										"Connection_1" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_2",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "color_id",
+												"TargetParam" : "outlinecolorid_value_arg"
+											}
+										},
+										"Connection_2" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "warp_color",
+												"TargetParam" : "warp_color_value_arg"
+											}
+										},
+										"Connection_3" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "warp_roughness",
+												"TargetParam" : "warp_roughness_value_arg"
+											}
+										},
+										"Connection_4" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "weft_color",
+												"TargetParam" : "weft_color_value_arg"
+											}
+										},
+										"Connection_5" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "weft_roughness",
+												"TargetParam" : "weft_roughness_value_arg"
+											}
+										},
+										"Connection_6" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "weft_normal_strength",
+												"TargetParam" : "weft_normal_strength_value_arg"
+											}
+										},
+										"Connection_7" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "warp_to_weft",
+												"TargetParam" : "warp_to_weft_value_arg"
+											}
+										},
+										"Connection_8" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "transmission_weight",
+												"TargetParam" : "transmission_weight_value_arg"
+											}
+										},
+										"Connection_9" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "transmission_color",
+												"TargetParam" : "transmission_color_value_arg"
+											}
+										},
+										"Connection_10" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "transmission_exponent",
+												"TargetParam" : "transmission_exponent_value_arg"
+											}
+										},
+										"Connection_11" : {
+											"type" : "settings",
+											"value" : {
+												"SourceBrick" : "Brick_3",
+												"TargetBrick" : "Brick_1",
+												"SourceParam" : "shadowing",
+												"TargetParam" : "shadowing_value_arg"
+											}
+										}
+									}
+								},
+								"BrickUserName" : "Iridescent Silk",
+								"Identifier" : "{4a88246f-f937-4037-b2c3-183eeebed253}"
+							}
+						}
+					}
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : ""
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "OutlineColorID",
+								"type" : "color",
+								"label" : "Material ID",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/General/Material ID"
+						},
+						{
+							"channel" : {
+								"id" : "warp_color",
+								"type" : "color",
+								"label" : "Warp Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "warp_roughness",
+								"type" : "float",
+								"label" : "Warp Roughness",
+								"value" : 0.3,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "weft_color",
+								"type" : "color",
+								"label" : "Weft Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "weft_roughness",
+								"type" : "float",
+								"label" : "Weft Roughness",
+								"value" : 0.15,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.04,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "weft_normal_strength",
+								"type" : "float",
+								"label" : "Weft Normal Strength",
+								"value" : 1.5,
+								"min" : 0,
+								"max" : 3,
+								"clamped" : true,
+								"step_size" : 0.05
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "warp_to_weft",
+								"type" : "float",
+								"label" : "Warp to Weft Ratio",
+								"value" : 3,
+								"min" : 0.5,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.5
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "transmission_weight",
+								"type" : "float",
+								"label" : "Transmission Weight",
+								"value" : 0.2,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "transmission_color",
+								"type" : "color",
+								"label" : "Transmission Color",
+								"value" : [ 0.9490196, 1, 0.9490196 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "transmission_exponent",
+								"type" : "float",
+								"label" : "Transmission Exponent",
+								"value" : 3,
+								"min" : 1,
+								"max" : 4,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/User Parameters (1)"
+						},
+						{
+							"channel" : {
+								"id" : "shadowing",
+								"type" : "float",
+								"label" : "Shadowing",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/User Parameters (1)"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Carpaint%20Blue",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/warp_color/value",
+				"keys" : [ [ 0, [ 0.3019608, 0.2196078, 0.3019608 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/warp_roughness/value",
+				"keys" : [ [ 0, 0.3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/weft_color/value",
+				"keys" : [ [ 0, [ 0.2, 0.3019608, 0.2 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/weft_roughness/value",
+				"keys" : [ [ 0, 0.15 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/weft_roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/weft_normal_strength/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/warp_to_weft/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/transmission_weight/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/transmission_color/value",
+				"keys" : [ [ 0, [ 0.9490196, 1, 0.9490196 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/transmission_exponent/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials:?extra/studio_material_channels/channels/shadowing/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

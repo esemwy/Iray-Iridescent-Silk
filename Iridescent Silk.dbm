@@ -1,0 +1,881 @@
+<Settings>
+ <Setting Type="String" Key="DAZStudioClassName">DzBrickMaterial</Setting>
+ <Setting Type="SubSetting" Key="BrickSet">
+  <Setting Type="SubSetting" Key="BrickSetup">
+   <Setting Type="SubSetting" Key="Bricks">
+    <Setting Type="SubSetting" Key="Brick_1">
+     <Setting Type="String" Key="DAZStudioClassName">DzUserParametersBrick</Setting>
+     <Setting Type="SubSetting" Key="Attributes">
+      <Setting Type="SubSetting" Key="UserOutputParameters">
+       <Setting Type="SubSetting" Key="user_out_1">
+        <Setting Type="String" Key="ArgName">outlinecolorid_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">color</Setting>
+        <Setting Type="String" Key="PropertyClass">DzColorProperty</Setting>
+        <Setting Type="String" Key="PropertyName">OutlineColorID</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_2">
+        <Setting Type="String" Key="ArgName">warp_color_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">color</Setting>
+        <Setting Type="String" Key="PropertyClass">DzColorProperty</Setting>
+        <Setting Type="String" Key="PropertyName">warp_color</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_3">
+        <Setting Type="String" Key="ArgName">warp_roughness_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">warp_roughness</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_4">
+        <Setting Type="String" Key="ArgName">weft_color_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">color</Setting>
+        <Setting Type="String" Key="PropertyClass">DzColorProperty</Setting>
+        <Setting Type="String" Key="PropertyName">weft_color</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_5">
+        <Setting Type="String" Key="ArgName">weft_roughness_value_arg</Setting>
+        <Setting Type="String" Key="MapArgName">weft_roughness_map_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">weft_roughness</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_6">
+        <Setting Type="String" Key="ArgName">weft_normal_strength_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">weft_normal_strength</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_7">
+        <Setting Type="String" Key="ArgName">warp_to_weft_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">warp_to_weft</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_8">
+        <Setting Type="String" Key="ArgName">transmission_weight_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">transmission_weight</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_9">
+        <Setting Type="String" Key="ArgName">transmission_color_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">color</Setting>
+        <Setting Type="String" Key="PropertyClass">DzColorProperty</Setting>
+        <Setting Type="String" Key="PropertyName">transmission_color</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_10">
+        <Setting Type="String" Key="ArgName">transmission_exponent_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">transmission_exponent</Setting>
+       </Setting>
+       <Setting Type="SubSetting" Key="user_out_11">
+        <Setting Type="String" Key="ArgName">shadowing_value_arg</Setting>
+        <Setting Type="String" Key="ParamType">float</Setting>
+        <Setting Type="String" Key="PropertyClass">DzFloatProperty</Setting>
+        <Setting Type="String" Key="PropertyName">shadowing</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="BrickSettings">
+       <Setting Type="String" Key="BrickTitle">User Parameters (3)</Setting>
+       <Setting Type="Bool" Key="HideParams">no</Setting>
+       <Setting Type="Float" Key="PosX">-727</Setting>
+       <Setting Type="Float" Key="PosY">-421</Setting>
+       <Setting Type="Int" Key="Width">200</Setting>
+       <Setting Type="Int" Key="Height">380</Setting>
+       <Setting Type="SubSetting" Key="BrickParams">
+        <Setting Type="SubSetting" Key="Param_0">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">119</Setting>
+          <Setting Type="Float" Key="Green">215</Setting>
+          <Setting Type="Float" Key="Blue">241</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_1">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">254</Setting>
+          <Setting Type="Float" Key="Green">117</Setting>
+          <Setting Type="Float" Key="Blue">34</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_2">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">128</Setting>
+          <Setting Type="Float" Key="Green">5</Setting>
+          <Setting Type="Float" Key="Blue">231</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_3">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">104</Setting>
+          <Setting Type="Float" Key="Green">63</Setting>
+          <Setting Type="Float" Key="Blue">33</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_4">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">197</Setting>
+          <Setting Type="Float" Key="Green">88</Setting>
+          <Setting Type="Float" Key="Blue">71</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_5">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">49</Setting>
+          <Setting Type="Float" Key="Green">159</Setting>
+          <Setting Type="Float" Key="Blue">135</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_6">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">97</Setting>
+          <Setting Type="Float" Key="Green">6</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_7">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">95</Setting>
+          <Setting Type="Float" Key="Green">143</Setting>
+          <Setting Type="Float" Key="Blue">225</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_8">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">168</Setting>
+          <Setting Type="Float" Key="Green">148</Setting>
+          <Setting Type="Float" Key="Blue">103</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_9">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">188</Setting>
+          <Setting Type="Float" Key="Green">183</Setting>
+          <Setting Type="Float" Key="Blue">167</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_10">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">89</Setting>
+          <Setting Type="Float" Key="Green">96</Setting>
+          <Setting Type="Float" Key="Blue">7</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_11">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">130</Setting>
+          <Setting Type="Float" Key="Green">200</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+       </Setting>
+       <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
+      </Setting>
+      <Setting Type="Float" Key="BrickVersion">1</Setting>
+      <Setting Type="SubSetting" Key="BrickProperties"/>
+     </Setting>
+     <Setting Type="SubSetting" Key="Parameters">
+      <Setting Type="SubSetting" Key="val1">
+       <Setting Type="String" Key="Label">Auto Add</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="outlinecolorid_value_arg">
+       <Setting Type="String" Key="Tokens">elr_outlinecolorid_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Material ID</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Material ID</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/General/Material ID</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">no</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">-2147483648</Setting>
+        <Setting Type="Int" Key="Max">2147483647</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="SubSetting" Key="Value">
+         <Setting Type="Int" Key="Red">0</Setting>
+         <Setting Type="Int" Key="Green">0</Setting>
+         <Setting Type="Int" Key="Blue">0</Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="DefaultValue">
+         <Setting Type="Int" Key="Red">0</Setting>
+         <Setting Type="Int" Key="Green">0</Setting>
+         <Setting Type="Int" Key="Blue">0</Setting>
+        </Setting>
+        <Setting Type="String" Key="Name">OutlineColorID</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="warp_color_value_arg">
+       <Setting Type="String" Key="Tokens">elr_warp_color_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Warp Color</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Warp Color</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">no</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">-2147483648</Setting>
+        <Setting Type="Int" Key="Max">2147483647</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="SubSetting" Key="Value">
+         <Setting Type="Int" Key="Red">77</Setting>
+         <Setting Type="Int" Key="Green">56</Setting>
+         <Setting Type="Int" Key="Blue">77</Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="DefaultValue">
+         <Setting Type="Int" Key="Red">255</Setting>
+         <Setting Type="Int" Key="Green">255</Setting>
+         <Setting Type="Int" Key="Blue">255</Setting>
+        </Setting>
+        <Setting Type="String" Key="Name">warp_color</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="warp_roughness_value_arg">
+       <Setting Type="String" Key="Tokens">elr_warp_roughness_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Warp Roughness</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Warp Roughness</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">0</Setting>
+        <Setting Type="Float" Key="Max">1</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.01</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">0.3</Setting>
+        <Setting Type="Float" Key="DefaultValue">0.3</Setting>
+        <Setting Type="String" Key="Name">warp_roughness</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_color_value_arg">
+       <Setting Type="String" Key="Tokens">elr_weft_color_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Weft Color</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Weft Color</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">no</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">-2147483648</Setting>
+        <Setting Type="Int" Key="Max">2147483647</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="SubSetting" Key="Value">
+         <Setting Type="Int" Key="Red">51</Setting>
+         <Setting Type="Int" Key="Green">77</Setting>
+         <Setting Type="Int" Key="Blue">51</Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="DefaultValue">
+         <Setting Type="Int" Key="Red">255</Setting>
+         <Setting Type="Int" Key="Green">255</Setting>
+         <Setting Type="Int" Key="Blue">255</Setting>
+        </Setting>
+        <Setting Type="String" Key="Name">weft_color</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_roughness_value_arg">
+       <Setting Type="String" Key="Tokens">elr_weft_roughness_value_arg_b1_t0,elr_weft_roughness_map_arg_b1_t1</Setting>
+       <Setting Type="String" Key="Label">Weft Roughness</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Weft Roughness</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">yes</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Int" Key="TextureModifierFlags">0</Setting>
+        <Setting Type="Float" Key="Min">0</Setting>
+        <Setting Type="Float" Key="Max">1</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.04</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">0.15</Setting>
+        <Setting Type="Float" Key="DefaultValue">0.15</Setting>
+        <Setting Type="String" Key="MapImage"></Setting>
+        <Setting Type="String" Key="Name">weft_roughness</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_normal_strength_value_arg">
+       <Setting Type="String" Key="Tokens">elr_weft_normal_strength_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Weft Normal Strength</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Weft Normal Strength</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">0</Setting>
+        <Setting Type="Float" Key="Max">3</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.05</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">1.5</Setting>
+        <Setting Type="Float" Key="DefaultValue">1.5</Setting>
+        <Setting Type="String" Key="Name">weft_normal_strength</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="warp_to_weft_value_arg">
+       <Setting Type="String" Key="Tokens">elr_warp_to_weft_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Warp to Weft Ratio</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Warp to Weft Ratio</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">0.5</Setting>
+        <Setting Type="Float" Key="Max">5</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.5</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">3</Setting>
+        <Setting Type="Float" Key="DefaultValue">3</Setting>
+        <Setting Type="String" Key="Name">warp_to_weft</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_weight_value_arg">
+       <Setting Type="String" Key="Tokens">elr_transmission_weight_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Transmission Weight</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Transmission Weight</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">0</Setting>
+        <Setting Type="Float" Key="Max">1</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.01</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">0.2</Setting>
+        <Setting Type="Float" Key="DefaultValue">0.2</Setting>
+        <Setting Type="String" Key="Name">transmission_weight</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_color_value_arg">
+       <Setting Type="String" Key="Tokens">elr_transmission_color_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Transmission Color</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Transmission Color</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">no</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">-2147483648</Setting>
+        <Setting Type="Int" Key="Max">2147483647</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="SubSetting" Key="Value">
+         <Setting Type="Int" Key="Red">242</Setting>
+         <Setting Type="Int" Key="Green">255</Setting>
+         <Setting Type="Int" Key="Blue">242</Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="DefaultValue">
+         <Setting Type="Int" Key="Red">242</Setting>
+         <Setting Type="Int" Key="Green">255</Setting>
+         <Setting Type="Int" Key="Blue">242</Setting>
+        </Setting>
+        <Setting Type="String" Key="Name">transmission_color</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_exponent_value_arg">
+       <Setting Type="String" Key="Tokens">elr_transmission_exponent_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Transmission Exponent</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Transmission Exponent</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">1</Setting>
+        <Setting Type="Float" Key="Max">4</Setting>
+        <Setting Type="Float" Key="Sensitivity">1</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">3</Setting>
+        <Setting Type="Float" Key="DefaultValue">3</Setting>
+        <Setting Type="String" Key="Name">transmission_exponent</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="shadowing_value_arg">
+       <Setting Type="String" Key="Tokens">elr_shadowing_value_arg_b1_t0</Setting>
+       <Setting Type="String" Key="Label">Shadowing</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Shadowing</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/User Parameters (1)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">1</Setting>
+        <Setting Type="Float" Key="Min">0</Setting>
+        <Setting Type="Float" Key="Max">1</Setting>
+        <Setting Type="Float" Key="Sensitivity">0.01</Setting>
+        <Setting Type="Bool" Key="AsPercent">no</Setting>
+        <Setting Type="Float" Key="Value">0</Setting>
+        <Setting Type="Float" Key="DefaultValue">0</Setting>
+        <Setting Type="String" Key="Name">shadowing</Setting>
+       </Setting>
+      </Setting>
+     </Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Brick_3">
+     <Setting Type="String" Key="DAZStudioClassName">DzMDLSurfaceBrick</Setting>
+     <Setting Type="SubSetting" Key="Attributes">
+      <Setting Type="SubSetting" Key="BrickSettings">
+       <Setting Type="SubSetting" Key="BrickSet">
+        <Setting Type="String" Key="Name">shader_MDL_Surface</Setting>
+        <Setting Type="String" Key="LastInvalidate">1438801646</Setting>
+       </Setting>
+       <Setting Type="String" Key="BrickTitle">MDL Surface (2)</Setting>
+       <Setting Type="Bool" Key="HideParams">no</Setting>
+       <Setting Type="Float" Key="PosX">-55</Setting>
+       <Setting Type="Float" Key="PosY">-418</Setting>
+       <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
+       <Setting Type="Int" Key="Width">200</Setting>
+       <Setting Type="Int" Key="Height">134</Setting>
+       <Setting Type="SubSetting" Key="BrickParams">
+        <Setting Type="SubSetting" Key="Param_0">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_1">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_2">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_3">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="Float" Key="BrickVersion">1</Setting>
+      <Setting Type="SubSetting" Key="BrickProperties"/>
+     </Setting>
+     <Setting Type="SubSetting" Key="Parameters">
+      <Setting Type="SubSetting" Key="material">
+       <Setting Type="String" Key="Label">Material</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="color_id">
+       <Setting Type="String" Key="Tokens">elr_color_id_b3_t0</Setting>
+       <Setting Type="String" Key="Label">Material ID</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">Material ID</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/General/Material ID</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">no</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">-2147483648</Setting>
+        <Setting Type="Int" Key="Max">2147483647</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="SubSetting" Key="Value">
+         <Setting Type="Int" Key="Red">0</Setting>
+         <Setting Type="Int" Key="Green">0</Setting>
+         <Setting Type="Int" Key="Blue">0</Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="DefaultValue">
+         <Setting Type="Int" Key="Red">0</Setting>
+         <Setting Type="Int" Key="Green">0</Setting>
+         <Setting Type="Int" Key="Blue">0</Setting>
+        </Setting>
+        <Setting Type="String" Key="Name">OutlineColorID</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="subd_displacement_level">
+       <Setting Type="String" Key="Tokens">elr_subd_displacement_level_b3_t0</Setting>
+       <Setting Type="String" Key="Label">SubD Displacement Level</Setting>
+       <Setting Type="SubSetting" Key="Prop_0">
+        <Setting Type="String" Key="Label">SubD Displacement Level</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/MDL Surface (2)</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">yes</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="XYZInterest">None</Setting>
+        <Setting Type="Bool" Key="Clamped">yes</Setting>
+        <Setting Type="Bool" Key="Mapable">no</Setting>
+        <Setting Type="Bool" Key="NeedMap">no</Setting>
+        <Setting Type="Float" Key="DefaultImageGamma">0</Setting>
+        <Setting Type="Int" Key="Min">0</Setting>
+        <Setting Type="Int" Key="Max">12</Setting>
+        <Setting Type="Int" Key="Sensitivity">1</Setting>
+        <Setting Type="Int" Key="Value">0</Setting>
+        <Setting Type="Int" Key="DefaultValue">0</Setting>
+        <Setting Type="String" Key="Name">SubD Displacement Level</Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="max_displacement">
+       <Setting Type="String" Key="Label">Displace Max</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="rootSettings">
+       <Setting Type="String" Key="Label">Root Settings</Setting>
+      </Setting>
+     </Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Brick_4">
+     <Setting Type="String" Key="DAZStudioClassName">DzCustomMDLBrick</Setting>
+     <Setting Type="SubSetting" Key="Attributes">
+      <Setting Type="SubSetting" Key="BrickSettings">
+       <Setting Type="String" Key="BrickTitle">Custom MDL (4)</Setting>
+       <Setting Type="Bool" Key="HideParams">no</Setting>
+       <Setting Type="Float" Key="PosX">-388</Setting>
+       <Setting Type="Float" Key="PosY">-234</Setting>
+       <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
+       <Setting Type="Int" Key="Width">200</Setting>
+       <Setting Type="Int" Key="Height">345</Setting>
+       <Setting Type="SubSetting" Key="BrickParams">
+        <Setting Type="SubSetting" Key="Param_0">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">15</Setting>
+          <Setting Type="Float" Key="Green">202</Setting>
+          <Setting Type="Float" Key="Blue">208</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_1">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">15</Setting>
+          <Setting Type="Float" Key="Green">202</Setting>
+          <Setting Type="Float" Key="Blue">208</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_2">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_3">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_4">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_5">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_6">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_7">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_8">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_9">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">39</Setting>
+          <Setting Type="Float" Key="Green">39</Setting>
+          <Setting Type="Float" Key="Blue">39</Setting>
+         </Setting>
+        </Setting>
+        <Setting Type="SubSetting" Key="Param_10">
+         <Setting Type="SubSetting" Key="ConnectionColor">
+          <Setting Type="Float" Key="Red">15</Setting>
+          <Setting Type="Float" Key="Green">202</Setting>
+          <Setting Type="Float" Key="Blue">208</Setting>
+         </Setting>
+        </Setting>
+       </Setting>
+      </Setting>
+      <Setting Type="Float" Key="BrickVersion">1</Setting>
+      <Setting Type="SubSetting" Key="BrickProperties">
+       <Setting Type="SubSetting" Key="MDL Callable">
+        <Setting Type="String" Key="Label">MDL Callable</Setting>
+        <Setting Type="Bool" Key="Hidden">no</Setting>
+        <Setting Type="String" Key="Path">/General</Setting>
+        <Setting Type="Bool" Key="UserProperty">no</Setting>
+        <Setting Type="Bool" Key="CanAnimate">no</Setting>
+        <Setting Type="Bool" Key="Locked">no</Setting>
+        <Setting Type="Bool" Key="Manipulator">yes</Setting>
+        <Setting Type="Bool" Key="Favorite">no</Setting>
+        <Setting Type="Bool" Key="GlobalFavorite">no</Setting>
+        <Setting Type="Bool" Key="Selected">no</Setting>
+        <Setting Type="Bool" Key="AutoFollow">no</Setting>
+        <Setting Type="String" Key="Value">local::iridescent_silk::iridescent_silk</Setting>
+       </Setting>
+      </Setting>
+     </Setting>
+     <Setting Type="SubSetting" Key="Parameters">
+      <Setting Type="SubSetting" Key="warp_color">
+       <Setting Type="String" Key="Label">Warp Color</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="warp_roughness">
+       <Setting Type="String" Key="Label">Warp Roughness</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_color">
+       <Setting Type="String" Key="Label">Weft Color</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_roughness">
+       <Setting Type="String" Key="Label">Weft Roughness</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="weft_normal_strength">
+       <Setting Type="String" Key="Label">Weft Normal Strength</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="warp_to_weft">
+       <Setting Type="String" Key="Label">Warp to Weft Ratio</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_weight">
+       <Setting Type="String" Key="Label">Transmission Weight</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_color">
+       <Setting Type="String" Key="Label">Transmission Color</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="transmission_exponent">
+       <Setting Type="String" Key="Label">Transmission Exponent</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="shadowing">
+       <Setting Type="String" Key="Label">Shadowing</Setting>
+      </Setting>
+      <Setting Type="SubSetting" Key="Result">
+       <Setting Type="String" Key="Tokens">elr_Result_b4_t0</Setting>
+       <Setting Type="String" Key="Label">Result</Setting>
+      </Setting>
+     </Setting>
+    </Setting>
+   </Setting>
+   <Setting Type="SubSetting" Key="Connections">
+    <Setting Type="SubSetting" Key="Connection_0">
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceParam">material</Setting>
+     <Setting Type="String" Key="TargetParam">Result</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_1">
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">color_id</Setting>
+     <Setting Type="String" Key="TargetParam">outlinecolorid_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_2">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">warp_color</Setting>
+     <Setting Type="String" Key="TargetParam">warp_color_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_3">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">warp_roughness</Setting>
+     <Setting Type="String" Key="TargetParam">warp_roughness_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_4">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">weft_color</Setting>
+     <Setting Type="String" Key="TargetParam">weft_color_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_5">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">weft_roughness</Setting>
+     <Setting Type="String" Key="TargetParam">weft_roughness_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_6">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">weft_normal_strength</Setting>
+     <Setting Type="String" Key="TargetParam">weft_normal_strength_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_7">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">warp_to_weft</Setting>
+     <Setting Type="String" Key="TargetParam">warp_to_weft_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_8">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">transmission_weight</Setting>
+     <Setting Type="String" Key="TargetParam">transmission_weight_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_9">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">transmission_color</Setting>
+     <Setting Type="String" Key="TargetParam">transmission_color_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_10">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">transmission_exponent</Setting>
+     <Setting Type="String" Key="TargetParam">transmission_exponent_value_arg</Setting>
+    </Setting>
+    <Setting Type="SubSetting" Key="Connection_11">
+     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
+     <Setting Type="String" Key="SourceParam">shadowing</Setting>
+     <Setting Type="String" Key="TargetParam">shadowing_value_arg</Setting>
+    </Setting>
+   </Setting>
+   <Setting Type="String" Key="BrickUserName">Iridescent Silk</Setting>
+   <Setting Type="String" Key="Identifier">{e9c697b4-71b5-4646-a021-f6eef1285121}</Setting>
+  </Setting>
+ </Setting>
+</Settings>
