@@ -9,7 +9,7 @@
 			"website" : ""
 		},
 		"revision" : "1.0",
-		"modified" : "2015-08-05T19:11:48Z"
+		"modified" : "2015-08-05T21:10:26Z"
 	},
 	"material_library" : [
 		{
@@ -784,7 +784,7 @@
 																	"type" : "settings",
 																	"value" : {
 																		"Name" : "shader_MDL_Surface",
-																		"LastInvalidate" : "1438801722"
+																		"LastInvalidate" : "1438808651"
 																	}
 																},
 																"BrickTitle" : "MDL Surface (2)",

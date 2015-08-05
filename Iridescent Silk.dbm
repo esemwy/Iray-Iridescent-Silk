@@ -76,10 +76,10 @@
        </Setting>
       </Setting>
       <Setting Type="SubSetting" Key="BrickSettings">
-       <Setting Type="String" Key="BrickTitle">User Parameters (3)</Setting>
+       <Setting Type="String" Key="BrickTitle">User Parameters</Setting>
        <Setting Type="Bool" Key="HideParams">no</Setting>
-       <Setting Type="Float" Key="PosX">-727</Setting>
-       <Setting Type="Float" Key="PosY">-421</Setting>
+       <Setting Type="Float" Key="PosX">-388</Setting>
+       <Setting Type="Float" Key="PosY">-244</Setting>
        <Setting Type="Int" Key="Width">200</Setting>
        <Setting Type="Int" Key="Height">380</Setting>
        <Setting Type="SubSetting" Key="BrickParams">
@@ -169,6 +169,7 @@
         </Setting>
        </Setting>
        <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
+       <Setting Type="Bool" Key="ShowAdvanced">yes</Setting>
       </Setting>
       <Setting Type="Float" Key="BrickVersion">1</Setting>
       <Setting Type="SubSetting" Key="BrickProperties"/>
@@ -528,18 +529,18 @@
       </Setting>
      </Setting>
     </Setting>
-    <Setting Type="SubSetting" Key="Brick_3">
+    <Setting Type="SubSetting" Key="Brick_2">
      <Setting Type="String" Key="DAZStudioClassName">DzMDLSurfaceBrick</Setting>
      <Setting Type="SubSetting" Key="Attributes">
       <Setting Type="SubSetting" Key="BrickSettings">
        <Setting Type="SubSetting" Key="BrickSet">
         <Setting Type="String" Key="Name">shader_MDL_Surface</Setting>
-        <Setting Type="String" Key="LastInvalidate">1438801646</Setting>
+        <Setting Type="String" Key="LastInvalidate">1438808689</Setting>
        </Setting>
-       <Setting Type="String" Key="BrickTitle">MDL Surface (2)</Setting>
+       <Setting Type="String" Key="BrickTitle">MDL Surface</Setting>
        <Setting Type="Bool" Key="HideParams">no</Setting>
-       <Setting Type="Float" Key="PosX">-55</Setting>
-       <Setting Type="Float" Key="PosY">-418</Setting>
+       <Setting Type="Float" Key="PosX">284</Setting>
+       <Setting Type="Float" Key="PosY">-241</Setting>
        <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
        <Setting Type="Int" Key="Width">200</Setting>
        <Setting Type="Int" Key="Height">134</Setting>
@@ -582,7 +583,7 @@
        <Setting Type="String" Key="Label">Material</Setting>
       </Setting>
       <Setting Type="SubSetting" Key="color_id">
-       <Setting Type="String" Key="Tokens">elr_color_id_b3_t0</Setting>
+       <Setting Type="String" Key="Tokens">elr_color_id_b2_t0</Setting>
        <Setting Type="String" Key="Label">Material ID</Setting>
        <Setting Type="SubSetting" Key="Prop_0">
         <Setting Type="String" Key="Label">Material ID</Setting>
@@ -618,12 +619,12 @@
        </Setting>
       </Setting>
       <Setting Type="SubSetting" Key="subd_displacement_level">
-       <Setting Type="String" Key="Tokens">elr_subd_displacement_level_b3_t0</Setting>
+       <Setting Type="String" Key="Tokens">elr_subd_displacement_level_b2_t0</Setting>
        <Setting Type="String" Key="Label">SubD Displacement Level</Setting>
        <Setting Type="SubSetting" Key="Prop_0">
         <Setting Type="String" Key="Label">SubD Displacement Level</Setting>
         <Setting Type="Bool" Key="Hidden">no</Setting>
-        <Setting Type="String" Key="Path">/MDL Surface (2)</Setting>
+        <Setting Type="String" Key="Path">/MDL Surface</Setting>
         <Setting Type="Bool" Key="UserProperty">no</Setting>
         <Setting Type="Bool" Key="CanAnimate">yes</Setting>
         <Setting Type="Bool" Key="Locked">no</Setting>
@@ -653,14 +654,14 @@
       </Setting>
      </Setting>
     </Setting>
-    <Setting Type="SubSetting" Key="Brick_4">
+    <Setting Type="SubSetting" Key="Brick_3">
      <Setting Type="String" Key="DAZStudioClassName">DzCustomMDLBrick</Setting>
      <Setting Type="SubSetting" Key="Attributes">
       <Setting Type="SubSetting" Key="BrickSettings">
-       <Setting Type="String" Key="BrickTitle">Custom MDL (4)</Setting>
+       <Setting Type="String" Key="BrickTitle">Custom MDL</Setting>
        <Setting Type="Bool" Key="HideParams">no</Setting>
-       <Setting Type="Float" Key="PosX">-388</Setting>
-       <Setting Type="Float" Key="PosY">-234</Setting>
+       <Setting Type="Float" Key="PosX">-49</Setting>
+       <Setting Type="Float" Key="PosY">-57</Setting>
        <Setting Type="Bool" Key="BrickIsRightToLeft">no</Setting>
        <Setting Type="Int" Key="Width">200</Setting>
        <Setting Type="Int" Key="Height">345</Setting>
@@ -794,7 +795,7 @@
        <Setting Type="String" Key="Label">Shadowing</Setting>
       </Setting>
       <Setting Type="SubSetting" Key="Result">
-       <Setting Type="String" Key="Tokens">elr_Result_b4_t0</Setting>
+       <Setting Type="String" Key="Tokens">elr_Result_b3_t0</Setting>
        <Setting Type="String" Key="Label">Result</Setting>
       </Setting>
      </Setting>
@@ -802,80 +803,80 @@
    </Setting>
    <Setting Type="SubSetting" Key="Connections">
     <Setting Type="SubSetting" Key="Connection_0">
-     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
-     <Setting Type="String" Key="TargetBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_2</Setting>
+     <Setting Type="String" Key="TargetBrick">Brick_3</Setting>
      <Setting Type="String" Key="SourceParam">material</Setting>
      <Setting Type="String" Key="TargetParam">Result</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_1">
-     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_2</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">color_id</Setting>
      <Setting Type="String" Key="TargetParam">outlinecolorid_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_2">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">warp_color</Setting>
      <Setting Type="String" Key="TargetParam">warp_color_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_3">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">warp_roughness</Setting>
      <Setting Type="String" Key="TargetParam">warp_roughness_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_4">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">weft_color</Setting>
      <Setting Type="String" Key="TargetParam">weft_color_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_5">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">weft_roughness</Setting>
      <Setting Type="String" Key="TargetParam">weft_roughness_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_6">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">weft_normal_strength</Setting>
      <Setting Type="String" Key="TargetParam">weft_normal_strength_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_7">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">warp_to_weft</Setting>
      <Setting Type="String" Key="TargetParam">warp_to_weft_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_8">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">transmission_weight</Setting>
      <Setting Type="String" Key="TargetParam">transmission_weight_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_9">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">transmission_color</Setting>
      <Setting Type="String" Key="TargetParam">transmission_color_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_10">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">transmission_exponent</Setting>
      <Setting Type="String" Key="TargetParam">transmission_exponent_value_arg</Setting>
     </Setting>
     <Setting Type="SubSetting" Key="Connection_11">
-     <Setting Type="String" Key="SourceBrick">Brick_4</Setting>
+     <Setting Type="String" Key="SourceBrick">Brick_3</Setting>
      <Setting Type="String" Key="TargetBrick">Brick_1</Setting>
      <Setting Type="String" Key="SourceParam">shadowing</Setting>
      <Setting Type="String" Key="TargetParam">shadowing_value_arg</Setting>
     </Setting>
    </Setting>
    <Setting Type="String" Key="BrickUserName">Iridescent Silk</Setting>
-   <Setting Type="String" Key="Identifier">{e9c697b4-71b5-4646-a021-f6eef1285121}</Setting>
+   <Setting Type="String" Key="Identifier">{4a88246f-f937-4037-b2c3-183eeebed253}</Setting>
   </Setting>
  </Setting>
 </Settings>
